@@ -27,3 +27,9 @@ branch = "master"
 [dependencies.cosmic-config]
 git = "https://github.com/pop-os/libcosmic.git"
 branch = "master"
+
+[patch."https://github.com/pop-os/libcosmic.git"]
+libcosmic = { git = "https://github.com/edfloreshz-ext/libcosmic", rev = "b175e2f6004f383a94aa44aeadea25d50f81d974" }
+
+[patch."https://github.com/pop-os/cosmic-panel"]
+libcosmic = { git = "https://github.com/edfloreshz-ext/cosmic-panel", rev = "ebea500043f2749f486c5b443694d20891564e6a" }
