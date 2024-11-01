@@ -2,7 +2,7 @@
 name = "cosmic-ext-config-templates"
 description = "Simple config template program for the COSMIC Desktop"
 license = "GPL-3.0-only"
-authors = [ "Ryan Brue <ryanbrue.dev@gmail.com>" ]
+authors = ["Ryan Brue <ryanbrue.dev@gmail.com>"]
 repository = "https://github.com/ryanabx/cosmic-ext-config-templates"
 version = "2.0.0"
 edition = "2021"
@@ -25,7 +25,6 @@ git = "https://github.com/pop-os/cosmic-panel"
 
 [dependencies.cosmic-config]
 git = "https://github.com/pop-os/libcosmic.git"
-branch = "master"
 
 [patch."https://github.com/pop-os/libcosmic.git"]
 cosmic-config = { git = "https://github.com/edfloreshz-ext/libcosmic", rev = "b175e2f6004f383a94aa44aeadea25d50f81d974" }
