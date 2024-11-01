@@ -318,6 +318,24 @@ dependencies = [
 [[package]]
 name = "cosmic-config"
 version = "0.1.0"
+source = "git+https://github.com/edfloreshz-ext/libcosmic?branch=master#b175e2f6004f383a94aa44aeadea25d50f81d974"
+dependencies = [
+ "atomicwrites",
+ "cosmic-config-derive 0.1.0 (git+https://github.com/edfloreshz-ext/libcosmic?branch=master)",
+ "dirs",
+ "iced_futures 0.14.0-dev (git+https://github.com/edfloreshz-ext/libcosmic?branch=master)",
+ "known-folders",
+ "notify",
+ "once_cell",
+ "ron",
+ "serde",
+ "tracing",
+ "xdg",
+]
+
+[[package]]
+name = "cosmic-config"
+version = "0.1.0"
 source = "git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974#b175e2f6004f383a94aa44aeadea25d50f81d974"
 dependencies = [
  "atomicwrites",
@@ -334,27 +352,9 @@ dependencies = [
 ]
 
 [[package]]
-name = "cosmic-config"
-version = "0.1.0"
-source = "git+https://github.com/pop-os/libcosmic#0dfaa4d158d85fc9218d5be84cd7a63634940607"
-dependencies = [
- "atomicwrites",
- "cosmic-config-derive 0.1.0 (git+https://github.com/pop-os/libcosmic)",
- "dirs",
- "iced_futures 0.14.0-dev (git+https://github.com/pop-os/libcosmic)",
- "known-folders",
- "notify",
- "once_cell",
- "ron",
- "serde",
- "tracing",
- "xdg",
-]
-
-[[package]]
 name = "cosmic-config-derive"
 version = "0.1.0"
-source = "git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974#b175e2f6004f383a94aa44aeadea25d50f81d974"
+source = "git+https://github.com/edfloreshz-ext/libcosmic?branch=master#b175e2f6004f383a94aa44aeadea25d50f81d974"
 dependencies = [
  "quote",
  "syn 1.0.109",
@@ -363,7 +363,7 @@ dependencies = [
 [[package]]
 name = "cosmic-config-derive"
 version = "0.1.0"
-source = "git+https://github.com/pop-os/libcosmic#0dfaa4d158d85fc9218d5be84cd7a63634940607"
+source = "git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974#b175e2f6004f383a94aa44aeadea25d50f81d974"
 dependencies = [
  "quote",
  "syn 1.0.109",
@@ -387,10 +387,10 @@ dependencies = [
 [[package]]
 name = "cosmic-panel-config"
 version = "0.1.0"
-source = "git+https://github.com/edfloreshz-ext/cosmic-panel?rev=6c6d7d954f07a184a35560f22af08c0952beee07#6c6d7d954f07a184a35560f22af08c0952beee07"
+source = "git+https://github.com/edfloreshz-ext/cosmic-panel?branch=master#de1dad6b31fa229f491bd020a9cbcf01fd6286f5"
 dependencies = [
  "anyhow",
- "cosmic-config 0.1.0 (git+https://github.com/pop-os/libcosmic)",
+ "cosmic-config 0.1.0 (git+https://github.com/edfloreshz-ext/libcosmic?branch=master)",
  "ron",
  "serde",
  "smithay-client-toolkit 0.19.2 (git+https://github.com/Smithay/client-toolkit)",
@@ -677,7 +677,7 @@ checksum = "9a3a5bfb195931eeb336b2a7b4d761daec841b97f947d34394601737a7bba5e4"
 [[package]]
 name = "iced_core"
 version = "0.14.0-dev"
-source = "git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974#b175e2f6004f383a94aa44aeadea25d50f81d974"
+source = "git+https://github.com/edfloreshz-ext/libcosmic?branch=master#b175e2f6004f383a94aa44aeadea25d50f81d974"
 dependencies = [
  "bitflags 2.6.0",
  "bytes",
@@ -699,7 +699,7 @@ dependencies = [
 [[package]]
 name = "iced_core"
 version = "0.14.0-dev"
-source = "git+https://github.com/pop-os/libcosmic#0dfaa4d158d85fc9218d5be84cd7a63634940607"
+source = "git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974#b175e2f6004f383a94aa44aeadea25d50f81d974"
 dependencies = [
  "bitflags 2.6.0",
  "bytes",
@@ -721,10 +721,10 @@ dependencies = [
 [[package]]
 name = "iced_futures"
 version = "0.14.0-dev"
-source = "git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974#b175e2f6004f383a94aa44aeadea25d50f81d974"
+source = "git+https://github.com/edfloreshz-ext/libcosmic?branch=master#b175e2f6004f383a94aa44aeadea25d50f81d974"
 dependencies = [
  "futures",
- "iced_core 0.14.0-dev (git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974)",
+ "iced_core 0.14.0-dev (git+https://github.com/edfloreshz-ext/libcosmic?branch=master)",
  "log",
  "rustc-hash",
  "wasm-bindgen-futures",
@@ -734,10 +734,10 @@ dependencies = [
 [[package]]
 name = "iced_futures"
 version = "0.14.0-dev"
-source = "git+https://github.com/pop-os/libcosmic#0dfaa4d158d85fc9218d5be84cd7a63634940607"
+source = "git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974#b175e2f6004f383a94aa44aeadea25d50f81d974"
 dependencies = [
  "futures",
- "iced_core 0.14.0-dev (git+https://github.com/pop-os/libcosmic)",
+ "iced_core 0.14.0-dev (git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974)",
  "log",
  "rustc-hash",
  "wasm-bindgen-futures",
@@ -1956,7 +1956,7 @@ checksum = "213b7324336b53d2414b2db8537e56544d981803139155afa84f76eeebb7a546"
 [[package]]
 name = "xdg-shell-wrapper-config"
 version = "0.1.0"
-source = "git+https://github.com/edfloreshz-ext/cosmic-panel?rev=6c6d7d954f07a184a35560f22af08c0952beee07#6c6d7d954f07a184a35560f22af08c0952beee07"
+source = "git+https://github.com/edfloreshz-ext/cosmic-panel?branch=master#de1dad6b31fa229f491bd020a9cbcf01fd6286f5"
 dependencies = [
  "serde",
  "wayland-protocols-wlr",

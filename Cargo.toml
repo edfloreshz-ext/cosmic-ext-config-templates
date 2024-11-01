@@ -22,7 +22,7 @@ env_logger = "0.11.5"
 
 [dependencies.cosmic-panel-config]
 git = "https://github.com/edfloreshz-ext/cosmic-panel"
-rev = "6c6d7d954f07a184a35560f22af08c0952beee07"
+branch = "master"
 
 [dependencies.cosmic-config]
 git = "https://github.com/edfloreshz-ext/libcosmic"
